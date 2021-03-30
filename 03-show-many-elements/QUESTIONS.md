@@ -6,4 +6,8 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+Jau kad tiek ielādēta lapa klases ir nodefinētas un atliek tikai tās ar pareizajām darbībām.
+Ievieojot ciklā ar darbību:
+button.addEventListener('click', function(e){
+        hide_me.forEach(function(element) {
+            element.style.display = "initial";
