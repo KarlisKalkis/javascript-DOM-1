@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
-    const hide_me = document.querySelectorAll(".hide_me")
-    const button = document.querySelector("#button")
+    const hide_me = document.querySelectorAll(".hide_me");
+    const button = document.querySelector("#button");
     
     
     button.addEventListener('click', function(e){

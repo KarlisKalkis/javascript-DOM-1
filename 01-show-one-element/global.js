@@ -1,13 +1,13 @@
 window.addEventListener("load", function(){
 
-  const button = document.querySelector("#more_text_link")
-  const text = document.querySelector("#more_text_content")
-  textToShow.style.display = "none"
+  const button = document.querySelector("#more_text_link");
+  const text = document.querySelector("#more_text_content");
+  textToShow.style.display = "none";
 
 
   button.addEventListener('click', function(e) {
-      text.style.display = "initial"
-      button.style.display = "none"
+      text.style.display = "initial";
+      button.style.display = "none";
     })
 
   // Here is some pseudo-code to help you get started:
